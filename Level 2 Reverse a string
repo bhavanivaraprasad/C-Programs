@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char*s;
+	int length,i;
+	printf("\n enter a string ");
+	gets(s);
+	length=strlen(s);
+	printf("\n reverse the number of string is: ");
+	for(i=length;i>0;i--)
+	printf("%c",*(s+i));
+}
